@@ -1,0 +1,110 @@
+body  {
+	background: url(zadniyfon.jpg) repeat;
+}
+	
+a {
+	color:#ff0000;
+}
+
+header h1 a {
+	font-size: 42px;
+	color:#160000;
+	text-decoration:none;
+}
+
+p{
+font-family:Times New Roman;
+}
+
+footer {
+	background:#000000;
+	position: absolute;
+	bottom: 1;
+	height: 80px;
+} 
+footer p {
+	text-align:center;
+	padding:30px;
+	color:#ffffff
+}
+
+.author {
+	text-align: right;
+}
+
+.gmenu ul {
+	padding: 20px 0;
+	margin: 0px;
+	list-style-type: none;
+	background:url(menufon.jpg) repeat-x;
+	width: 100%;
+	text-align: center;
+}
+
+.gmenu li { 
+	display: inline; 
+}
+.gmenu li a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 20px 30px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:18px;
+}
+.gmenu li a:hover {
+	background:url(menu.jpg) repeat-x;	
+}
+
+#gmenus a {
+	background:url(menu.jpg) repeat-x;
+	margin-left: 50px;
+}
+
+.podmenu {
+	margin: 0 850px 0 0;	
+	border-left: 2px solid #ff0000;
+	border-right: 2px solid #ff0000;
+}
+
+.podmenus a {
+	display: block;
+	width: 220px;
+	color: #ff0000;
+	border-bottom: 1px  dashed #4b4b4b;
+    box-shadow: 0 1px #F2F2F2;
+    list-style: none outside none;
+    padding: 10px 0 10px 0px;
+}
+
+.podmenus a:link, .sidebarlist a:visited {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+.podmenus a:hover {
+	background-color: #000000;
+	color: #ff0000;
+	padding: 10px 0 10px 7px;
+}
+
+.podmenu ul {
+	list-style-type: none;
+}
+
+.Content {
+	font-family:Times New Roman;
+	float: right; 
+	width: 700px;
+	padding:0px 0 0px 0;	
+}
+
+.Content p{
+		text-align: justify;
+}
+
+.osnova { 
+	width: 1200px;
+	margin: 0 auto;
+	font-family:Times New Roman;
+} 
